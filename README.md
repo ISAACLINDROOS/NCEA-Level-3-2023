@@ -13,10 +13,11 @@
 # Repository Content:
 
 #### Achievement Standard: 
-* [Documentation](https://github.com/ISAACLINDROOS)
-* [Releases](https://github.com/ISAACLINDROOS)
-* [Data](https://github.com/ISAACLINDROOS)
+* [Documentation](https://github.com/ISAACLINDROOS/NCEA-Level-3-2023/tree/main/Documentation)
+* [Releases](https://github.com/ISAACLINDROOS/NCEA-Level-3-2023/tree/main/Releases)
+* [Data](https://github.com/ISAACLINDROOS/NCEA-Level-3-2023/tree/main/Data)
 
 #### Program (Application):
-* [Latest Release](https://github.com/ISAACLINDROOS)
+* [CustomTkinter](https://github.com/ISAACLINDROOS/NCEA-Level-3-2023/tree/main/CustomTkinter)
+* [Latest Release](https://github.com/ISAACLINDROOS/NCEA-Level-3-2023/tree/main/Releases/Latest%20Release)
 - - - -
