@@ -78,13 +78,105 @@ df_results = df_results.dropna()
 df_results = df_results.dropna(axis=0)
 df_results = df_results.dropna().reset_index(drop=True)
 
+# Individual Dataframe Configuration:
+os_windows_df = df.os == "Windows"
+os_mac_df = df.os == "Mac"
+os_dos_df = df.os == "Dos"
+ssd_128_df = df.ssd == "128 GB"
+ssd_256_df = df.ssd == "256 GB"
+ssd_512_df = df.ssd == "512 GB"
+ssd_1024_df = df.ssd == "1024 GB"
+ram_4_df = df.ram_gb == "4 GB"
+ram_8_df = df.ram_gb == "8 GB"
+ram_16_df = df.ram_gb == "16 GB"
+ram_32_df = df.ram_gb == "32 GB"
+display_size_13_3_df = df.display_size == "13.3"
+display_size_14_df = df.display_size == "14"
+display_size_15_6_df = df.display_size == "15.6"
+display_size_16_df = df.display_size == "16"
+touchscreen_yes_df = df.touchscreen == "Yes"
+touchscreen_no_df = df.touchscreen == "No"
+brand_apple_df = df.brand == "APPLE"
+brand_asus_df = df.brand == "ASUS"
+brand_dell_df = df.brand == "DELL"
+brand_hp_df = df.brand == "HP"
+brand_msi_df = df.brand == "MSI"
+
+# Set Value of User Selection based on Button Function:
+def user_select_os_windows():
+    df.update(os_windows_df, overwrite=True)
+
+def user_select_os_mac():
+    df.update(os_mac_df, overwrite=True)
+
+def user_select_os_dos():
+    df.update(os_dos_df, overwrite=True)
+
+def user_select_storage_128():
+    df.update(ssd_128_df, overwrite=True)
+
+def user_select_storage_256():
+    df.update(ssd_256_df, overwrite=True)
+
+def user_select_storage_512():
+    df.update(ssd_512_df, overwrite=True)
+
+def user_select_storage_1024():
+    df.update(ssd_1024_df, overwrite=True)
+
+def user_select_ram_4():
+    df.update(ram_4_df, overwrite=True)
+
+def user_select_ram_8():
+    df.update(ram_8_df, overwrite=True)
+
+def user_select_ram_16():
+    df.update(ram_16_df, overwrite=True)
+
+def user_select_ram_32():
+    df.update(ram_32_df, overwrite=True)
+
+def user_select_display_size_13_3():
+    df.update(display_size_13_3_df, overwrite=False)
+
+def user_select_display_size_14():
+    df.update(display_size_14_df, overwrite=False)
+
+def user_select_display_size_15_6():
+    df.update(display_size_15_6_df, overwrite=False)
+
+def user_select_display_size_16():
+    df.update(display_size_16_df, overwrite=False)
+
+def user_select_touchscreen_yes():
+    df.update(touchscreen_yes_df, overwrite=True)
+
+def user_select_touchscreen_no():
+    df.update(touchscreen_no_df, overwrite=True)
+
+def user_select_brand_apple():
+    df.update(brand_apple_df, overwrite=True)
+
+def user_select_brand_asus():
+    df.update(brand_asus_df, overwrite=True)
+
+def user_select_brand_dell():
+    df.update(brand_dell_df, overwrite=True)
+
+def user_select_brand_hp():
+    df.update(brand_hp_df, overwrite=True)
+
+def user_select_brand_msi():
+    df.update(brand_msi_df, overwrite=True)
+
+
 class App(customtkinter.CTk):
     def __init__(self):
         super().__init__()
         image_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets")
 
         # Configure Master Window
-        self.title("Laptop Price Calculator 11.3 - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
+        self.title("Laptop Price Calculator 11.4 - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
         self.geometry(f"{1000}x{768}")
         self.wm_iconbitmap(os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets/window_icon.ico"))
         # self.wm_iconbitmap('window_icon.ico')
