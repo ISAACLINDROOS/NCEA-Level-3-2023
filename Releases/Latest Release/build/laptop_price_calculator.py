@@ -34,6 +34,10 @@ import matplotlib.image as pltimg
 from tabulate import tabulate
 from PIL import Image
 from pathlib import Path
+import webbrowser
+import re
+import sys
+import os
 
 # Set Local File Mater Pathway:
 OUTPUT_PATH = Path(__file__).parent
@@ -169,20 +173,18 @@ def user_select_brand_hp():
 def user_select_brand_msi():
     df.update(brand_msi_df, overwrite=True)
 
-
-
-class App(customtkinter.CTk):
-    def __init__(self):
-        super().__init__()
+class ToplevelWindow(customtkinter.CTkToplevel):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
         image_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets")
 
-        # Configure Master Window
-        self.title("Laptop Price Calculator 11.5 - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
-        self.geometry(f"{1000}x{768}")
+        # Configure Results Window
+        self.title("Laptop Price Calculator 11.6: Results - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
+        self.geometry(f"{1000}x{480}")
         self.wm_iconbitmap(os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets/window_icon.ico"))
         # self.wm_iconbitmap('window_icon.ico')
 
-        # Configure Master Grid Layout (4x4)
+        # Configure Results Window Grid Layout (4x4)
         self.grid_columnconfigure(1, weight=1)
         self.grid_columnconfigure((2, 3), weight=0)
         self.grid_rowconfigure((0, 1), weight=1)
@@ -191,7 +193,40 @@ class App(customtkinter.CTk):
         self.sidebar_frame = customtkinter.CTkFrame(self, width=140, corner_radius=0)
         self.sidebar_frame.grid(row=0, column=0, rowspan=4, sticky="nsew")
         self.sidebar_frame.grid_rowconfigure(4, weight=1)
-        self.logo_image = customtkinter.CTkImage(Image.open(os.path.join(image_path, "laptop_image_a.png")), size=(200, 200))
+        self.logo_image = customtkinter.CTkImage(Image.open(os.path.join(image_path, "laptop_image.png")), size=(200, 200))
+        self.sidebar_frame_label = customtkinter.CTkLabel(self.sidebar_frame, text="", image=self.logo_image, compound="left", font=customtkinter.CTkFont(size=15, weight="bold"))
+        self.sidebar_frame_label.grid(row=4, column=0, padx=20, pady=20)
+        self.logo_label = customtkinter.CTkLabel(self.sidebar_frame, text="Laptop Price Calculator", font=customtkinter.CTkFont(size=20, weight="bold"))
+        self.logo_label.grid(row=0, column=0, padx=20, pady=(20, 10))
+
+        # Instruction Frame with Internal Widgets
+        self.instruction_frame = customtkinter.CTkFrame(self, width=140)
+        self.instruction_frame.grid(row=0, column=1, padx=(20, 20), pady=(20, 0), sticky="nsew")
+        self.instruction_frame.grid_rowconfigure(4, weight=1)
+        self.instruction_label = customtkinter.CTkLabel(self.instruction_frame, text=datalabel, anchor="center", justify="left", font=customtkinter.CTkFont(size=12, weight="bold"))
+        self.instruction_label.grid(row=0, column=1, padx=20, pady=(20, 10))
+
+class App(customtkinter.CTk):
+    def __init__(self):
+        super().__init__()
+        image_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets")
+
+        # Configure Master Window
+        self.title("Laptop Price Calculator 11.6 - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
+        self.geometry(f"{1000}x{768}")
+        self.wm_iconbitmap(os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets/window_icon.ico"))
+        # self.wm_iconbitmap('window_icon.ico')
+
+        # Configure Master Window Grid Layout (4x4)
+        self.grid_columnconfigure(1, weight=1)
+        self.grid_columnconfigure((2, 3), weight=0)
+        self.grid_rowconfigure((0, 1), weight=1)
+
+        # Sidebar Frame with Internal Widgets
+        self.sidebar_frame = customtkinter.CTkFrame(self, width=140, corner_radius=0)
+        self.sidebar_frame.grid(row=0, column=0, rowspan=4, sticky="nsew")
+        self.sidebar_frame.grid_rowconfigure(4, weight=1)
+        self.logo_image = customtkinter.CTkImage(Image.open(os.path.join(image_path, "laptop_image.png")), size=(200, 200))
         self.sidebar_frame_label = customtkinter.CTkLabel(self.sidebar_frame, text="", image=self.logo_image, compound="left", font=customtkinter.CTkFont(size=15, weight="bold"))
         self.sidebar_frame_label.grid(row=4, column=0, padx=20, pady=20)
         self.logo_label = customtkinter.CTkLabel(self.sidebar_frame, text="Laptop Price Calculator", font=customtkinter.CTkFont(size=20, weight="bold"))
@@ -215,13 +250,18 @@ class App(customtkinter.CTk):
         self.instruction_frame = customtkinter.CTkFrame(self, width=140)
         self.instruction_frame.grid(row=0, column=1, padx=(20, 0), pady=(20, 0), sticky="nsew")
         self.instruction_frame.grid_rowconfigure(4, weight=1)
-        self.instruction_label = customtkinter.CTkLabel(self.instruction_frame, text="How to use the Laptop Price Calculator:\n1. Once the program has loaded correctly, you will see the main window of the program with several input fields and buttons.\n2.", anchor="center", justify="left", font=customtkinter.CTkFont(size=12, weight="bold"))
+        self.instruction_label = customtkinter.CTkLabel(self.instruction_frame, text="How to use the Laptop Price Calculator:\n\n1. Once the program has loaded correctly, you will see the main window of the\n     program with several input fields and buttons.\n2. Using the Laptop Specification Selection Tool™, simply select from each\n     dropdown the specification that best suits your needs.\n3. Once you have made all of your selections, click on the 'Submit' button to\n     view your results.\n4. To exit the program at any time, click on the 'Exit' Button.\n\nNote: To update the Master Database to the Latest data, please click the\n'Update Database' Button and upload your preferred CSV file. ", anchor="center", justify="left", font=customtkinter.CTkFont(size=12, weight="bold"))
         self.instruction_label.grid(row=0, column=0, padx=20, pady=(20, 10))
 
-        # Credit Frame with Internal Widgets
-        self.credit_frame = customtkinter.CTkFrame(self, width=140)
-        self.credit_frame.grid(row=0, column=3, padx=(20, 20), pady=(20, 0), sticky="nsew")
-        self.credit_frame.grid_rowconfigure(4, weight=1)
+        # GitHub Frame with Internal Widgets
+        self.github_frame = customtkinter.CTkFrame(self, width=140)
+        self.github_frame.grid(row=0, column=3, padx=(20, 20), pady=(20, 0), sticky="nsew")
+        self.github_frame.grid_rowconfigure(4, weight=1)
+        self.logo_image = customtkinter.CTkImage(Image.open(os.path.join(image_path, "github_logo.png")), size=(100, 100))
+        self.github_frame_label = customtkinter.CTkLabel(self.github_frame, text="", image=self.logo_image, compound="center", font=customtkinter.CTkFont(size=15, weight="bold"))
+        self.github_frame_label.grid(row=4, column=0, padx=20, pady=20)
+        self.github_button = customtkinter.CTkButton(self.github_frame, command=self.reset_button)
+        self.github_button.grid(row=5, column=0, padx=20, pady=10)
 
         # Entry Field and Buttons
         self.entry = customtkinter.CTkEntry(self, placeholder_text="Notes & Comments")
@@ -235,6 +275,7 @@ class App(customtkinter.CTk):
         self.reset_button.configure(state="enabled", fg_color="#DC3545", border_width=2, text_color=("gray10", "#DCE4EE"), border_color="#DC3545",text="Reset/Clear Form")
         self.update_button.configure(state="enabled", text="Update Database")
         self.feedback_button.configure(state="disabled", text="Provide Feedback")
+        self.github_button.configure(state="enabled", text= "View on GitHub")
         self.appearance_mode_optionemenu.set("Dark")
         self.scaling_optionemenu.set("100%")
 
@@ -267,6 +308,14 @@ class App(customtkinter.CTk):
         self.label_option_menu_6_touchscreen.grid(row=10, column=0, padx=0, pady=0)
         self.option_menu_6_touchscreen = customtkinter.CTkOptionMenu(self.tabview.tab("Laptop Specification Selection Tool™"), dynamic_resizing=False, values=["-", "Yes", "No",])
         self.option_menu_6_touchscreen.grid(row=11, column=0, padx=20, pady=(0, 10))
+        
+        self.toplevel_window = None
+
+    def open_toplevel(self):
+        if self.toplevel_window is None or not self.toplevel_window.winfo_exists():
+            self.toplevel_window = ToplevelWindow(self)
+        else:
+            self.toplevel_window.focus()
 
     def change_appearance_mode_event(self, new_appearance_mode: str):
         customtkinter.set_appearance_mode(new_appearance_mode)
@@ -295,7 +344,7 @@ class App(customtkinter.CTk):
     def exit_button(self):
         exit_yes = tkinter.messagebox.askyesnocancel(title="exit_button", message="Are you sure that you want to Exit the Application?", icon='warning')
         print("Application Exit Button Pressed")
-        
+
         if exit_yes:
             self.quit()
 
@@ -304,20 +353,9 @@ class App(customtkinter.CTk):
         print("Submit Results Button Pressed")
 
         if submit_yes:
-            print("Results Submitted")
-            selected_laptop_brand = self.option_menu_1_brand.get()
-            print("Selected Laptop Brand:", selected_laptop_brand)
-            selected_operating_system = self.option_menu_2_operating_system.get()
-            print("Selected Laptop Operating System:", selected_operating_system)
-            selected_display_size = self.option_menu_3_display_size.get()
-            print("Selected Laptop Display Size:", selected_display_size)
-            selected_ssd_size = self.option_menu_4_ssd_size.get()
-            print("Selected Laptop SSD Size:", selected_ssd_size)
-            selected_ram_size = self.option_menu_5_ram_size.get()
-            print("Selected Laptop RAM Size:", selected_ram_size)
-            selected_touchscreen = self.option_menu_6_touchscreen.get()
-            print("Selected Laptop Touchscreen:", selected_touchscreen)
-
+            self.open_toplevel()
+            
+            
     def read_selection(self):
         print("Read Selection")
 
