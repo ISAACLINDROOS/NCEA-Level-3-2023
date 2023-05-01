@@ -170,13 +170,14 @@ def user_select_brand_msi():
     df.update(brand_msi_df, overwrite=True)
 
 
+
 class App(customtkinter.CTk):
     def __init__(self):
         super().__init__()
         image_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets")
 
         # Configure Master Window
-        self.title("Laptop Price Calculator 11.4 - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
+        self.title("Laptop Price Calculator 11.5 - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
         self.geometry(f"{1000}x{768}")
         self.wm_iconbitmap(os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets/window_icon.ico"))
         # self.wm_iconbitmap('window_icon.ico')
@@ -225,9 +226,9 @@ class App(customtkinter.CTk):
         # Entry Field and Buttons
         self.entry = customtkinter.CTkEntry(self, placeholder_text="Notes & Comments")
         self.entry.grid(row=3, column=1, columnspan=2, padx=(20, 0), pady=(20, 20), sticky="nsew")
-        self.submit_button = customtkinter.CTkButton(master=self, fg_color="#28A745", border_width=2, text_color=("gray10", "#DCE4EE"), border_color="#28A745", text="Submit", command=self.submit_button)
+        self.submit_button = customtkinter.CTkButton(master=self, state="enabled", fg_color="#28A745", border_width=2, text_color=("gray10", "#DCE4EE"), border_color="#28A745", text="Submit", command=self.submit_button)
         self.submit_button.grid(row=1, column=3, padx=(20, 20), pady=(38, 0), sticky="nsew")
-        self.exit_button = customtkinter.CTkButton(master=self, fg_color="#DC3545", border_width=2, text_color=("gray10", "#DCE4EE"), border_color="#DC3545", text="Exit", command=self.exit_button)
+        self.exit_button = customtkinter.CTkButton(master=self, state="enabled", fg_color="#DC3545", border_width=2, text_color=("gray10", "#DCE4EE"), border_color="#DC3545", text="Exit", command=self.exit_button)
         self.exit_button.grid(row=3, column=3, padx=(20, 20), pady=(20, 20), sticky="nsew")
 
         # Set All Default Values
@@ -304,7 +305,19 @@ class App(customtkinter.CTk):
 
         if submit_yes:
             print("Results Submitted")
-            
+            selected_laptop_brand = self.option_menu_1_brand.get()
+            print("Selected Laptop Brand:", selected_laptop_brand)
+            selected_operating_system = self.option_menu_2_operating_system.get()
+            print("Selected Laptop Operating System:", selected_operating_system)
+            selected_display_size = self.option_menu_3_display_size.get()
+            print("Selected Laptop Display Size:", selected_display_size)
+            selected_ssd_size = self.option_menu_4_ssd_size.get()
+            print("Selected Laptop SSD Size:", selected_ssd_size)
+            selected_ram_size = self.option_menu_5_ram_size.get()
+            print("Selected Laptop RAM Size:", selected_ram_size)
+            selected_touchscreen = self.option_menu_6_touchscreen.get()
+            print("Selected Laptop Touchscreen:", selected_touchscreen)
+
     def read_selection(self):
         print("Read Selection")
 
