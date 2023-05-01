@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) [2023] [Isaac James Lindroos]
+Copyright (c) 2023: Isaac James Lindroos
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,14 +22,61 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
+# Explicit imports to satisfy Flake8:
 import tkinter
 import tkinter.messagebox
 import customtkinter
 import os
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.image as pltimg
+from tabulate import tabulate
 from PIL import Image
+from pathlib import Path
 
+# Set Local File Mater Pathway:
+OUTPUT_PATH = Path(__file__).parent
+ASSETS_PATH = OUTPUT_PATH / Path("./assets")
+
+# Set Tabulate Display Settings:
+tabulate.PRESERVE_WHITESPACE = True
+
+# Set CustomTkinter Display Settings:
 customtkinter.set_appearance_mode("System")
 customtkinter.set_default_color_theme("blue")
+
+# Set Default Pathway to Relative Assets:
+def relative_to_assets(path: str) -> Path:
+    return ASSETS_PATH / Path(path)
+
+# Set Display settings (ALL Pandas dataframes):
+def set_pandas_display_options() -> None:
+    display = pd.options.display
+    display.max_columns = 1000
+    display.max_rows = 1000
+    display.max_colwidth = 199
+    display.width = 1000
+
+set_pandas_display_options()
+
+# Pandas Main Dataframe Configuration (Set Columns):
+columns = ['brand', 'model', 'processor_brand', 'processor_name', 'processor_gnrtn', 'ram_gb', 'ram_type', 'ssd', 'hdd', 'os', 'os_bit', 'graphic_card_gb', 'weight', 'display-size', 'warranty', 'touchscreen', 'msoffice', 'latest_price', 'old_price', 'discount', 'star_rating', 'ratings', 'reviews']
+df = pd.read_csv(ASSETS_PATH / "laptops_dataset_clean_refined.csv", usecols=['os', 'ssd', 'ram_gb', 'display_size', 'touchscreen', 'brand'])
+
+# Pandas Main Dataframe Refinement (Removing all Rows with NaN Values within the Main Dataframe & Updateing the Index axis Accordingly):
+df = df.dropna()
+df = df.dropna(axis=0)
+df = df.dropna().reset_index(drop=True)
+
+# Pandas Results Dataframe Configuration (Set Columns):
+columns = ['brand', 'model', 'processor_brand', 'processor_name', 'processor_gnrtn', 'ram_gb', 'ram_type', 'ssd', 'hdd', 'os', 'os_bit', 'graphic_card_gb', 'weight', 'display-size', 'warranty', 'touchscreen', 'msoffice', 'latest_price', 'old_price', 'discount', 'star_rating', 'ratings', 'reviews']
+df_results = pd.read_csv(ASSETS_PATH / "laptops_dataset_clean_refined_dataref.csv")
+
+# Pandas Results Dataframe Refinement (Removing all Rows with NaN Values within the Main Dataframe & Updateing the Index axis Accordingly):
+df_results = df_results.dropna()
+df_results = df_results.dropna(axis=0)
+df_results = df_results.dropna().reset_index(drop=True)
 
 class App(customtkinter.CTk):
     def __init__(self):
@@ -37,7 +84,7 @@ class App(customtkinter.CTk):
         image_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets")
 
         # Configure Master Window
-        self.title("Laptop Price Calculator 11.2 - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
+        self.title("Laptop Price Calculator 11.3 - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
         self.geometry(f"{1000}x{768}")
         self.wm_iconbitmap(os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets/window_icon.ico"))
         # self.wm_iconbitmap('window_icon.ico')
@@ -105,27 +152,27 @@ class App(customtkinter.CTk):
         self.tabview.tab("Laptop Specification Selection Tool™").grid_columnconfigure(0, weight=1)
         self.label_option_menu_1_brand = customtkinter.CTkLabel(self.tabview.tab("Laptop Specification Selection Tool™"), text="Laptop Brand")
         self.label_option_menu_1_brand.grid(row=0, column=0, padx=0, pady=0)
-        self.option_menu_1_brand = customtkinter.CTkOptionMenu(self.tabview.tab("Laptop Specification Selection Tool™"), dynamic_resizing=False, values=["Apple", "ASUS", "Dell", "HP", "MSI"])
+        self.option_menu_1_brand = customtkinter.CTkOptionMenu(self.tabview.tab("Laptop Specification Selection Tool™"), dynamic_resizing=False, values=["-", "Apple", "ASUS", "Dell", "HP", "MSI"])
         self.option_menu_1_brand.grid(row=1, column=0, padx=20, pady=(0, 10))
         self.label_option_menu_2_operating_system = customtkinter.CTkLabel(self.tabview.tab("Laptop Specification Selection Tool™"), text="Operating System")
         self.label_option_menu_2_operating_system.grid(row=2, column=0, padx=0, pady=0)
-        self.option_menu_2_operating_system = customtkinter.CTkOptionMenu(self.tabview.tab("Laptop Specification Selection Tool™"), dynamic_resizing=False, values=["Windows", "Mac", "DOS"])
+        self.option_menu_2_operating_system = customtkinter.CTkOptionMenu(self.tabview.tab("Laptop Specification Selection Tool™"), dynamic_resizing=False, values=["-", "Windows", "Mac", "DOS"])
         self.option_menu_2_operating_system.grid(row=3, column=0, padx=20, pady=(0, 10))
         self.label_option_menu_3_display_size = customtkinter.CTkLabel(self.tabview.tab("Laptop Specification Selection Tool™"), text="Display Size (inches)")
         self.label_option_menu_3_display_size.grid(row=4, column=0, padx=0, pady=0)
-        self.option_menu_3_display_size = customtkinter.CTkOptionMenu(self.tabview.tab("Laptop Specification Selection Tool™"), dynamic_resizing=False, values=["13.3 inches", "14 inches", "15.6 inches", "16 inches"])
+        self.option_menu_3_display_size = customtkinter.CTkOptionMenu(self.tabview.tab("Laptop Specification Selection Tool™"), dynamic_resizing=False, values=["-", "13.3 inches", "14 inches", "15.6 inches", "16 inches"])
         self.option_menu_3_display_size.grid(row=5, column=0, padx=20, pady=(0, 10))
         self.label_option_menu_4_ssd_size = customtkinter.CTkLabel(self.tabview.tab("Laptop Specification Selection Tool™"), text="SSD Size (GB)")
         self.label_option_menu_4_ssd_size.grid(row=6, column=0, padx=0, pady=0)
-        self.option_menu_4_ssd_size = customtkinter.CTkOptionMenu(self.tabview.tab("Laptop Specification Selection Tool™"), dynamic_resizing=False, values=["128 GB", "256 GB", "512 GB", "1024 GB"])
+        self.option_menu_4_ssd_size = customtkinter.CTkOptionMenu(self.tabview.tab("Laptop Specification Selection Tool™"), dynamic_resizing=False, values=["-", "128 GB", "256 GB", "512 GB", "1024 GB"])
         self.option_menu_4_ssd_size.grid(row=7, column=0, padx=20, pady=(0, 10))
         self.label_option_menu_5_ram_size = customtkinter.CTkLabel(self.tabview.tab("Laptop Specification Selection Tool™"), text="RAM Size (GB)")
         self.label_option_menu_5_ram_size.grid(row=8, column=0, padx=0, pady=0)
-        self.option_menu_5_ram_size = customtkinter.CTkOptionMenu(self.tabview.tab("Laptop Specification Selection Tool™"), dynamic_resizing=False, values=["4 GB", "8 GB", "16 GB", "32 GB"])
+        self.option_menu_5_ram_size = customtkinter.CTkOptionMenu(self.tabview.tab("Laptop Specification Selection Tool™"), dynamic_resizing=False, values=["-", "4 GB", "8 GB", "16 GB", "32 GB"])
         self.option_menu_5_ram_size.grid(row=9, column=0, padx=20, pady=(0, 10))
         self.label_option_menu_6_touchscreen = customtkinter.CTkLabel(self.tabview.tab("Laptop Specification Selection Tool™"), text="Touchscreen")
         self.label_option_menu_6_touchscreen.grid(row=10, column=0, padx=0, pady=0)
-        self.option_menu_6_touchscreen = customtkinter.CTkOptionMenu(self.tabview.tab("Laptop Specification Selection Tool™"), dynamic_resizing=False, values=["Yes", "No",])
+        self.option_menu_6_touchscreen = customtkinter.CTkOptionMenu(self.tabview.tab("Laptop Specification Selection Tool™"), dynamic_resizing=False, values=["-", "Yes", "No",])
         self.option_menu_6_touchscreen.grid(row=11, column=0, padx=20, pady=(0, 10))
 
     def change_appearance_mode_event(self, new_appearance_mode: str):
@@ -165,6 +212,9 @@ class App(customtkinter.CTk):
 
         if submit_yes:
             print("Results Submitted")
+            
+    def read_selection(self):
+        print("Read Selection")
 
 if __name__ == "__main__":
     app = App()
