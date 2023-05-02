@@ -179,7 +179,7 @@ class ToplevelWindow(customtkinter.CTkToplevel):
         image_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets")
 
         # Configure Results Window
-        self.title("Laptop Price Calculator 11.6: Results - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
+        self.title("Laptop Price Calculator 11.7: Results - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
         self.geometry(f"{1000}x{480}")
         self.wm_iconbitmap(os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets/window_icon.ico"))
         # self.wm_iconbitmap('window_icon.ico')
@@ -212,7 +212,7 @@ class App(customtkinter.CTk):
         image_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets")
 
         # Configure Master Window
-        self.title("Laptop Price Calculator 11.6 - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
+        self.title("Laptop Price Calculator 11.7 - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
         self.geometry(f"{1000}x{768}")
         self.wm_iconbitmap(os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets/window_icon.ico"))
         # self.wm_iconbitmap('window_icon.ico')
@@ -260,7 +260,7 @@ class App(customtkinter.CTk):
         self.logo_image = customtkinter.CTkImage(Image.open(os.path.join(image_path, "github_logo.png")), size=(100, 100))
         self.github_frame_label = customtkinter.CTkLabel(self.github_frame, text="", image=self.logo_image, compound="center", font=customtkinter.CTkFont(size=15, weight="bold"))
         self.github_frame_label.grid(row=4, column=0, padx=20, pady=20)
-        self.github_button = customtkinter.CTkButton(self.github_frame, command=self.reset_button)
+        self.github_button = customtkinter.CTkButton(self.github_frame, command=self.open_github_link)
         self.github_button.grid(row=5, column=0, padx=20, pady=10)
 
         # Entry Field and Buttons
@@ -323,6 +323,9 @@ class App(customtkinter.CTk):
     def change_scaling_event(self, new_scaling: str):
         new_scaling_float = int(new_scaling.replace("%", "")) / 100
         customtkinter.set_widget_scaling(new_scaling_float)
+
+    def open_github_link(self):
+        webbrowser.open("https://github.com/ISAACLINDROOS/NCEA-Level-3-2023")
 
     def reset_button(self):
         reset_yes = tkinter.messagebox.askyesnocancel(title="reset_button", message="Are you sure that you want to Reset/Clear the Form?", icon='warning')
