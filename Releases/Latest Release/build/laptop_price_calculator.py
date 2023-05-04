@@ -31,13 +31,15 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.image as pltimg
-from tabulate import tabulate
-from PIL import Image
-from pathlib import Path
 import webbrowser
 import re
 import sys
 import os
+from tabulate import tabulate
+from PIL import Image
+from pathlib import Path
+from tkinter import filedialog
+from fpdf import fpdf
 
 # Set Local File Mater Pathway:
 OUTPUT_PATH = Path(__file__).parent
@@ -179,10 +181,8 @@ class ToplevelWindow(customtkinter.CTkToplevel):
         image_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets")
 
         # Configure Results Window
-        self.title("Laptop Price Calculator 11.7: Results - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
+        self.title("Laptop Price Calculator 11.8: Results - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
         self.geometry(f"{1000}x{480}")
-        self.wm_iconbitmap(os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets/window_icon.ico"))
-        # self.wm_iconbitmap('window_icon.ico')
 
         # Configure Results Window Grid Layout (4x4)
         self.grid_columnconfigure(1, weight=1)
@@ -202,9 +202,33 @@ class ToplevelWindow(customtkinter.CTkToplevel):
         # Instruction Frame with Internal Widgets
         self.instruction_frame = customtkinter.CTkFrame(self, width=140)
         self.instruction_frame.grid(row=0, column=1, padx=(20, 20), pady=(20, 0), sticky="nsew")
-        self.instruction_frame.grid_rowconfigure(4, weight=1)
-        self.instruction_label = customtkinter.CTkLabel(self.instruction_frame, text=datalabel, anchor="center", justify="left", font=customtkinter.CTkFont(size=12, weight="bold"))
+        self.instruction_frame.grid_rowconfigure(2, weight=1)
+        self.instruction_label = customtkinter.CTkLabel(self.instruction_frame, text=df_results, anchor="center", justify="left", font=customtkinter.CTkFont(size=12, weight="bold"))
         self.instruction_label.grid(row=0, column=1, padx=20, pady=(20, 10))
+        self.exit_button = customtkinter.CTkButton(master=self, state="enabled", fg_color="#DC3545", border_width=2, text_color=("gray10", "#DCE4EE"), border_color="#DC3545", text="Exit", command=self.exit_button_2)
+        self.exit_button.grid(row=3, column=1, padx=(20, 20), pady=(20, 20), sticky="nsew")
+        self.save_button = customtkinter.CTkButton(master=self, command=self.save_file)
+        self.save_button.grid(row=2, column=1, padx=(20, 20), pady=(20, 0), sticky="nsew")
+
+        # Set All Default Values
+        self.save_button.configure(state="enabled", text="Save Results")
+
+    def exit_button_2(self):
+        exit_yes = tkinter.messagebox.askyesnocancel(title="exit_button", message="Are you sure that you want to Exit the Application?", icon='warning')
+        print("Application Exit Button Pressed")
+
+        if exit_yes:
+            self.quit()
+    
+    def save_file(self):
+        file_path = filedialog.asksaveasfilename(defaultextension=".pdf")
+        
+        if file_path:
+            pdf = fpdf.FPDF(format='letter')
+            pdf.add_page()
+            pdf.set_font('Arial', 'B', 16)
+            pdf.cell(40, 10, "Laptop Price Calculator 2023: My Results")
+            pdf.output(file_path, 'F')
 
 class App(customtkinter.CTk):
     def __init__(self):
@@ -212,11 +236,9 @@ class App(customtkinter.CTk):
         image_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets")
 
         # Configure Master Window
-        self.title("Laptop Price Calculator 11.7 - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
+        self.title("Laptop Price Calculator 11.8 - FOR DEVELOPMENT USE ONLY!")      # NOTE: Development Version
         self.geometry(f"{1000}x{768}")
-        self.wm_iconbitmap(os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets/window_icon.ico"))
-        # self.wm_iconbitmap('window_icon.ico')
-
+        
         # Configure Master Window Grid Layout (4x4)
         self.grid_columnconfigure(1, weight=1)
         self.grid_columnconfigure((2, 3), weight=0)
@@ -268,7 +290,7 @@ class App(customtkinter.CTk):
         self.entry.grid(row=3, column=1, columnspan=2, padx=(20, 0), pady=(20, 20), sticky="nsew")
         self.submit_button = customtkinter.CTkButton(master=self, state="enabled", fg_color="#28A745", border_width=2, text_color=("gray10", "#DCE4EE"), border_color="#28A745", text="Submit", command=self.submit_button)
         self.submit_button.grid(row=1, column=3, padx=(20, 20), pady=(38, 0), sticky="nsew")
-        self.exit_button = customtkinter.CTkButton(master=self, state="enabled", fg_color="#DC3545", border_width=2, text_color=("gray10", "#DCE4EE"), border_color="#DC3545", text="Exit", command=self.exit_button)
+        self.exit_button = customtkinter.CTkButton(master=self, state="enabled", fg_color="#DC3545", border_width=2, text_color=("gray10", "#DCE4EE"), border_color="#DC3545", text="Exit", command=self.exit_button_1)
         self.exit_button.grid(row=3, column=3, padx=(20, 20), pady=(20, 20), sticky="nsew")
 
         # Set All Default Values
@@ -344,7 +366,7 @@ class App(customtkinter.CTk):
     def feedback_button(self):
         print("Provide Feedback Button Pressed")
         
-    def exit_button(self):
+    def exit_button_1(self):
         exit_yes = tkinter.messagebox.askyesnocancel(title="exit_button", message="Are you sure that you want to Exit the Application?", icon='warning')
         print("Application Exit Button Pressed")
 
@@ -357,8 +379,7 @@ class App(customtkinter.CTk):
 
         if submit_yes:
             self.open_toplevel()
-            
-            
+             
     def read_selection(self):
         print("Read Selection")
 
