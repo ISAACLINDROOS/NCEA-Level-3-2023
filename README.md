@@ -41,7 +41,7 @@ This laptop calculator is designed to help people through the sometimes complica
 >
 > ![image](https://user-images.githubusercontent.com/21046313/180735934-94ad964f-1fea-4bb5-aadb-c41873a9e7e1.png)
 
-Install the App by saving the latest file in the [Releases](https://github.com/ISAACLINDROOS/NCEA-Level-3-2023/tree/main/Releases/Latest%20Release) directory or select from the [Releases Menu](https://github.com/ISAACLINDROOS/NCEA-Level-3-2023/tree/main/Releases/Latest%20Release). Once the file has been downloaded, run the .exe file (If done correctly, the main window should open).
+Install the App by saving the latest file in the [Releases](https://github.com/ISAACLINDROOS/NCEA-Level-3-2023/tree/main/Releases/Latest%20Release) directory or select from the [Releases Menu](https://github.com/ISAACLINDROOS/NCEA-Level-3-2023/releases). Once the file has been downloaded, run the .exe file (If done correctly, the main window should open).
 
 > #### On Mac computers with Apple silicon, you may need to install Rosetta. A window like the one below may pop-up, simply click "Install" to continue.
 >
