@@ -28,3 +28,21 @@ The calculator features an intuitive and user-friendly interface that enables us
 
 Its accuracy, user-friendly interface, and additional features make it an essential resource for students and parents looking to make a smart investment in a laptop that will meet their academic needs and budget.
 
+### How to use the Laptop Price Calculator:
+
+This laptop calculator is designed to help people through the sometimes complicated and overwhelming process of selecting a new laptop.
+
+#### A few things to note:
+* This application is a work in progress and is constantly being updated, The best way to stay up-to-date with the latest version is to check for the latest release in [Releases](https://github.com/ISAACLINDROOS/NCEA-Level-3-2023/tree/main/Releases/Latest%20Release).
+* This application runs off the x64 processor (CPU) architecture. This means the app supports only Intel processors and needs Rosetta to work on a Mac with Apple silicon.
+
+
+> #### On Mac computers with Apple silicon, About This Mac shows an item labelled Chip, followed by the name of the chip:
+>
+> ![image](https://user-images.githubusercontent.com/21046313/180735934-94ad964f-1fea-4bb5-aadb-c41873a9e7e1.png)
+
+Install the App by saving the latest file in the [Releases](https://github.com/ISAACLINDROOS/NCEA-Level-3-2023/tree/main/Releases/Latest%20Release) directory or select from the [Releases Menu](https://github.com/ISAACLINDROOS/NCEA-Level-3-2023/tree/main/Releases/Latest%20Release). Once the file has been downloaded, run the .exe file (If done correctly, the main window should open).
+
+> #### On Mac computers with Apple silicon, you may need to install Rosetta. A window like the one below may pop-up, simply click "Install" to continue.
+>
+>![image](https://user-images.githubusercontent.com/21046313/180735660-6721e16e-9004-4ac2-8679-12bb2e467474.png)
