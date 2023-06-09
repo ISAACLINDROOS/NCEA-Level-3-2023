@@ -1,0 +1,320 @@
+Brand,Model,Processor Brand,Processor,Processor Generation,RAM,RAM Type,SSD Size,OS,Type,Display Size,Touchscreen,Office 365,Current Price
+HP,Athlon,AMD,Athlon Dual,10th,32 GB,DDR4,32 GB,Windows,Casual,14,No,No,"$2,689.00 "
+ASUS,ExpertBook,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Casual,,No,No,$699.00 
+ASUS,ExpertBook,Intel,Core i3,11th,4 GB,DDR4,256 GB,Windows,Casual,,No,No,$359.00 
+HP,x360,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,Casual,14,Yes,No,$564.00 
+HP,x360,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,Casual,14,No,No,$653.00 
+ASUS,VivoBook,Intel,Core i3,11th,4 GB,DDR4,256 GB,Windows,Casual,15.6,No,Yes,$359.00 
+ASUS,VivoBook,Intel,Core i3,10th,8 GB,DDR4,256 GB,Windows,ThinNlight,14,No,No,$339.00 
+DELL,Vostro,Intel,Core i3,10th,8 GB,DDR4,256 GB,Windows,ThinNlight,14,No,Yes,$394.00 
+HP,Pavilion,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,Casual,14,Yes,Yes,$539.00 
+ASUS,VivoBook,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,Casual,14,No,Yes,$378.00 
+DELL,Vostro,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,ThinNlight,14.96,No,Yes,$419.00 
+ASUS,VivoBook,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,Casual,15.6,No,No,$459.00 
+DELL,Inspiron,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,ThinNlight,15.6,No,No,$424.00 
+DELL,Vostro,Intel,Core i3,10th,4 GB,DDR4,256 GB,Windows,ThinNlight,14,No,Yes,$369.00 
+ASUS,VivoBook,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,ThinNlight,14,No,No,$369.00 
+DELL,Inspiron,Intel,Core i3,10th,4 GB,DDR4,256 GB,Windows,Casual,15,No,Yes,$394.00 
+ASUS,VivoBook,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,Casual,15.6,No,No,$450.00 
+DELL,Inspiron,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,ThinNlight,15.6,No,No,$455.00 
+DELL,Inspiron,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,Casual,14,Yes,No,$533.00 
+DELL,Vostro,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,ThinNlight,14,No,Yes,$553.00 
+DELL,Inspiron,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,ThinNlight,14.96,No,No,$908.00 
+ASUS,VivoBook,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,Casual,15.6,No,No,$384.00 
+DELL,Vostro,Intel,Core i3,11th,4 GB,DDR4,256 GB,Windows,ThinNlight,,No,No,$444.00 
+ASUS,VivoBook,Intel,Core i3,10th,4 GB,DDR4,256 GB,Windows,Casual,,No,No,$359.00 
+DELL,Inspiron,Intel,Core i3,10th,4 GB,DDR4,256 GB,Windows,ThinNlight,,No,No,$424.00 
+ASUS,VivoBook,Intel,Core i3,11th,4 GB,DDR4,256 GB,Windows,Casual,,No,No,$399.00 
+ASUS,Commercial,Intel,Core i3,10th,4 GB,DDR4,256 GB,Windows,Casual,,No,No,$399.00 
+HP,14s,Intel,Core i3,11th,4 GB,DDR4,256 GB,Windows,ThinNlight,,No,Yes,$424.00 
+DELL,INSPIRON,Intel,Core i3,11th,4 GB,DDR4,256 GB,Windows,Casual,,No,No,$466.00 
+DELL,Inspiron,Intel,Core i3,10th,4 GB,DDR4,256 GB,Windows,ThinNlight,,No,No,$399.00 
+ASUS,VivoBook,Intel,Core i3,11th,4 GB,DDR4,256 GB,Windows,ThinNlight,,No,No,$369.00 
+ASUS,VivoBook,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,Casual,15.6,No,No,$489.00 
+HP,Pavilion,Intel,Core i3,8th,4 GB,DDR4,256 GB,Windows,Casual,14,Yes,Yes,$542.00 
+ASUS,VivoBook,Intel,Core i3,10th,8 GB,DDR4,512 GB,Windows,Casual,15.6,No,No,$379.00 
+ASUS,VivoBook,Intel,Core i3,10th,4 GB,DDR4,512 GB,Windows,Casual,15.6,No,No,$359.00 
+ASUS,VivoBook,Intel,Core i3,11th,8 GB,DDR4,512 GB,Windows,Casual,14,No,No,$429.00 
+ASUS,VivoBook,Intel,Core i3,11th,8 GB,LPDDR4X,512 GB,Windows,Casual,14,Yes,Yes,$519.00 
+ASUS,VivoBook,Intel,Core i3,11th,8 GB,DDR4,512 GB,Windows,Casual,15.6,No,No,$489.00 
+ASUS,VivoBook,Intel,Core i3,11th,8 GB,DDR4,512 GB,Windows,Casual,14,No,No,$429.00 
+DELL,Inspiron,Intel,Core i3,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,14.96,No,No,$459.00 
+HP,Pavilion,Intel,Core i3,11th,8 GB,DDR4,512 GB,Windows,Casual,14,No,Yes,$549.00 
+ASUS,VivoBook,Intel,Core i3,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,14.1,No,Yes,$419.00 
+ASUS,VivoBook,Intel,Core i3,11th,8 GB,DDR4,512 GB,Windows,Casual,14,No,Yes,$449.00 
+ASUS,VivoBook,Intel,Core i3,11th,8 GB,DDR4,512 GB,Windows,Casual,14,No,No,$429.00 
+DELL,Vostro,Intel,Core i3,10th,8 GB,DDR4,512 GB,Windows,ThinNlight,14,No,Yes,$419.00 
+DELL,Inspiron,Intel,Core i3,10th,8 GB,DDR4,512 GB,Windows,ThinNlight,15.6,No,No,$454.00 
+ASUS,VivoBook,Intel,Core i3,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,14.1,No,Yes,$449.00 
+HP,15s,Intel,Core i3,11th,4 GB,DDR4,512 GB,Windows,ThinNlight,,No,Yes,$454.00 
+HP,Pavilion,Intel,Core i3,11th,4 GB,DDR4,512 GB,Windows,Casual,,Yes,Yes,$692.00 
+ASUS,VivoBook,Intel,Core i3,11th,4 GB,DDR4,512 GB,Windows,Casual,,No,Yes,$516.00 
+ASUS,VivoBook,Intel,Core i3,10th,4 GB,DDR4,512 GB,Windows,Casual,,No,No,$409.00 
+ASUS,VivoBook,Intel,Core i3,11th,4 GB,DDR4,512 GB,Windows,Casual,,No,No,$448.00 
+ASUS,VivoBook,Intel,Core i3,10th,4 GB,DDR4,512 GB,Windows,Casual,,No,No,$414.00 
+HP,15s,Intel,Core i3,11th,4 GB,DDR4,512 GB,Windows,ThinNlight,,No,No,$509.00 
+ASUS,VivoBook,Intel,Core i3,10th,4 GB,DDR4,512 GB,Windows,Casual,,No,No,$409.00 
+DELL,Vostro,Intel,Core i3,10th,4 GB,DDR4,512 GB,Windows,Casual,,No,No,$417.00 
+DELL,Inspiron,Intel,Core i3,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,15.6,No,No,$459.00 
+HP,Pavilion,Intel,Core i3,11th,8 GB,DDR4,512 GB,Windows,Casual,14,Yes,Yes,$554.00 
+DELL,Vostro,Intel,Core i3,10th,8 GB,DDR4,256 GB,Windows,ThinNlight,15.6,No,Yes,$414.00 
+DELL,Inspiron,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,Casual,15.6,No,No,$454.00 
+DELL,Inspiron,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,Casual,15.6,No,No,$444.00 
+ASUS,VivoBook,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,Casual,14.1,No,Yes,$418.00 
+DELL,Vostro,Intel,Core i3,11th,4 GB,DDR4,256 GB,Windows,ThinNlight,14,No,Yes,$429.00 
+DELL,Inspiron,Intel,Core i3,11th,8 GB,DDR4,256 GB,Windows,ThinNlight,15.6,No,No,$489.00 
+DELL,Vostro,Intel,Core i3,11th,4 GB,DDR4,256 GB,Windows,ThinNlight,,No,Yes,$435.00 
+DELL,Inspiron,Intel,Core i3,10th,4 GB,DDR4,256 GB,Windows,Casual,,No,No,$446.00 
+ASUS,ExpertBook,Intel,Core i3,10th,4 GB,DDR4,256 GB,Windows,Casual,,No,No,$409.00 
+DELL,Vostro,Intel,Core i3,11th,4 GB,DDR4,256 GB,Windows,ThinNlight,,No,Yes,$439.00 
+DELL,Vostro,Intel,Core i3,11th,4 GB,DDR4,256 GB,Windows,ThinNlight,,No,Yes,$435.00 
+DELL,Vostro,Intel,Core i3,10th,4 GB,DDR4,256 GB,Windows,ThinNlight,,No,Yes,$413.00 
+DELL,Vostro,Intel,Core i3,10th,4 GB,DDR4,256 GB,Windows,ThinNlight,,No,Yes,$442.00 
+DELL,Inspiron,Intel,Core i3,11th,4 GB,DDR4,256 GB,Windows,Casual,,No,No,$489.00 
+DELL,Vostro,Intel,Core i3,11th,4 GB,DDR4,256 GB,Windows,ThinNlight,,No,Yes,$399.00 
+HP,Pavilion,Intel,Core i5,8th,8 GB,DDR4,128 GB,Windows,ThinNlight,13.3,No,No,$760.00 
+ASUS,VivoBook,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,ThinNlight,,No,No,$489.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,ThinNlight,,No,No,$559.00 
+HP,Spectre,Intel,Core i5,8th,8 GB,DDR4,256 GB,Windows,Casual,,Yes,Yes,$136.00 
+ASUS,VivoBook14,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,ThinNlight,14.1,No,No,$498.00 
+HP,Pavilion,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,ThinNlight,14,No,Yes,$679.00 
+ASUS,TUF,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Gaming,15.6,No,No,$579.00 
+ASUS,VivoBook,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,Casual,14,Yes,Yes,$639.00 
+ASUS,ASUS,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Gaming,17.3,No,No,$719.00 
+ASUS,VivoBook,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Casual,15.6,No,No,$479.00 
+ASUS,ASUS,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Gaming,17.3,No,No,$729.00 
+MSI,Katana,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,Casual,15.6,No,No,$769.00 
+ASUS,TUF,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,Gaming,15.6,No,Yes,$899.00 
+MSI,GF63,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Casual,15.6,No,No,$599.00 
+ASUS,TUF,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Gaming,15.6,No,Yes,$659.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,14,Yes,No,$719.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,14,Yes,No,$718.00 
+ASUS,VivoBook,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,Casual,14,No,No,$659.00 
+ASUS,VivoBook,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,Casual,14,No,No,$734.00 
+HP,Pavilion,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,ThinNlight,14,No,Yes,$744.00 
+HP,Pavilion,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,14,No,Yes,$583.00 
+DELL,Inspiron,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,ThinNlight,14,No,No,$679.00 
+ASUS,VivoBook,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,Casual,14,No,No,$599.00 
+ASUS,TUF,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,Casual,15.6,No,Yes,$829.00 
+DELL,Vostro,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,14,No,Yes,$641.00 
+HP,Spectre,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,Casual,13.3,Yes,No,$979.00 
+ASUS,VivoBook,Intel,Core i5,9th,8 GB,DDR4,512 GB,Windows,Gaming,15.6,No,Yes,$549.00 
+HP,Pavilion,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,ThinNlight,14,No,Yes,$669.00 
+DELL,G15,Intel,Core i5,10th,16 GB,DDR4,512 GB,Windows,Casual,15.6,No,No,$799.00 
+ASUS,TUF,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Gaming,15.6,No,No,$639.00 
+HP,Pavilion,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,15.6,No,Yes,$639.00 
+ASUS,VivoBook,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,Casual,14,No,No,$599.00 
+ASUS,VivoBook,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,Casual,14,No,No,$599.00 
+HP,Pavilion,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,15.6,No,Yes,$639.00 
+DELL,Vostro,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,Casual,14,No,Yes,$694.00 
+DELL,Inspiron,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,Casual,14,Yes,Yes,$893.00 
+ASUS,ZenBook,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,ThinNlight,13.3,No,No,$749.00 
+DELL,Inspiron,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,Casual,15.6,No,Yes,$897.00 
+ASUS,VivoBook,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,Casual,17.3,Yes,Yes,$589.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,14,Yes,Yes,$799.00 
+MSI,Modern,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Casual,14,No,No,$565.00 
+ASUS,ASUS,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,16,No,No,$849.00 
+HP,Pavilion,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,16,No,Yes,$725.00 
+HP,14s,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,,No,No,$579.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,16,No,Yes,$694.00 
+ASUS,ZenBook,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,Casual,16,Yes,No,"$1,059.00 "
+MSI,Prestige,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,Casual,16,No,No,$799.00 
+DELL,Vostro,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,,No,Yes,$554.00 
+ASUS,Zenbook,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,,Yes,Yes,$849.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,,No,No,$599.00 
+DELL,XPS,Intel,Core i5,10th,8 GB,LPDDR4X,512 GB,Windows,ThinNlight,,No,Yes,"$1,118.00 "
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,,No,No,$659.00 
+ASUS,Zenbook,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,Casual,,No,Yes,$729.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,16,No,Yes,$710.00 
+MSI,Katana,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,,No,No,$749.00 
+ASUS,ZenBook,Intel,Core i5,10th,8 GB,LPDDR3,512 GB,Windows,Casual,,No,Yes,$799.00 
+MSI,Modern,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,,No,No,$554.00 
+DELL,Vostro,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,,No,Yes,$664.00 
+ASUS,VivoBook,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,,No,Yes,$534.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,,Yes,Yes,$745.00 
+DELL,XPS,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,ThinNlight,16,No,Yes,"$1,149.00 "
+DELL,Vostro,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,,No,No,$619.00 
+APPLE,MacBook,Intel,Core i5,10th,8 GB,LPDDR4X,512 GB,Mac,Casual,16,No,No,"$1,599.00 "
+APPLE,MacBook,Intel,Core i5,8th,8 GB,DDR3,512 GB,Mac,Casual,,No,No,"$1,720.00 "
+MSI,Sword,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,,No,No,$749.00 
+MSI,Modern,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Casual,,No,No,$564.00 
+HP,Pavilion,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Gaming,,No,Yes,$779.00 
+HP,Envy,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Casual,16,No,Yes,"$1,064.00 "
+ASUS,TUF,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Gaming,,No,No,$649.00 
+MSI,Modern,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Casual,,No,No,$549.00 
+HP,Spectre,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,Casual,16,Yes,No,"$1,119.00 "
+HP,14s,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,ThinNlight,,No,Yes,$559.00 
+ASUS,ZenBook,Intel,Core i5,8th,8 GB,LPDDR3,512 GB,Windows,ThinNlight,,No,No,$729.00 
+HP,HP,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,16,Yes,Yes,$769.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,16,Yes,Yes,$779.00 
+HP,Spectre,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Casual,,Yes,Yes,"$1,149.00 "
+DELL,DELL,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Casual,,No,Yes,$659.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,16,No,Yes,$889.00 
+ASUS,VivoBook,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,Casual,,Yes,Yes,$739.00 
+ASUS,ZenBook,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,Casual,,Yes,No,$999.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,,Yes,Yes,$707.00 
+ASUS,VivoBook,Intel,Core i5,8th,8 GB,DDR4,512 GB,Windows,ThinNlight,,No,No,$536.00 
+MSI,Modern,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,,No,No,$559.00 
+ASUS,VivoBook,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,,No,Yes,$531.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,,No,No,$719.00 
+ASUS,ZenBook,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,ThinNlight,16,No,No,$849.00 
+ASUS,ZenBook,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,Casual,,Yes,No,$999.00 
+ASUS,Zenbook,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,ThinNlight,,No,No,$849.00 
+DELL,Inpiron,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Casual,,No,No,$799.00 
+DELL,GAMING,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Casual,,No,No,$763.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,,No,No,$729.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,,Yes,Yes,$739.00 
+ASUS,ZenBook,Intel,Core i5,11th,8 GB,LPDDR4,512 GB,Windows,ThinNlight,16,No,No,$849.00 
+HP,Spectre,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Casual,,Yes,No,"$1,260.00 "
+ASUS,ASUS,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,16,No,No,$889.00 
+HP,HP,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,ThinNlight,16,Yes,Yes,"$1,149.00 "
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,16,Yes,Yes,$829.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,,Yes,Yes,$799.00 
+ASUS,ZenBook,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,Casual,16,Yes,No,"$1,149.00 "
+HP,Spectre,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,Casual,16,Yes,No,"$1,299.00 "
+MSI,GS,Intel,Core i5,8th,8 GB,DDR5,512 GB,Windows,Casual,,No,No,"$1,499.00 "
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,16,No,No,$712.00 
+DELL,Inspiron,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,ThinNlight,,No,Yes,$795.00 
+DELL,Inspiron,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Casual,,No,Yes,$829.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,,No,Yes,$709.00 
+ASUS,ZenBook,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,Casual,,Yes,No,$999.00 
+HP,430,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,,No,No,$940.00 
+MSI,Prestige,Intel,Core i5,11th,8 GB,LPDDR4X,512 GB,Windows,Casual,16,No,No,$799.00 
+ASUS,Pro,Intel,Core i5,8th,8 GB,DDR4,512 GB,Windows,ThinNlight,,No,No,$859.00 
+ASUS,ExpertBook,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Casual,,No,No,$869.00 
+ASUS,ZenBook,Intel,Core i5,10th,8 GB,LPDDR3,512 GB,Windows,Casual,,No,Yes,"$1,059.00 "
+ASUS,ExpertBook,Intel,Core i5,10th,8 GB,LPDDR3,512 GB,Windows,Casual,,No,No,$849.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,16,Yes,Yes,$789.00 
+ASUS,ExpertBook,Intel,Core i5,10th,8 GB,LPDDR3,512 GB,Windows,Casual,,No,No,"$1,327.00 "
+DELL,Inspiron,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,ThinNlight,15.6,No,No,$701.00 
+ASUS,TUF,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,15.6,No,No,$769.00 
+ASUS,Intel,Intel,Core i5,11th,8 GB,DDR4,512 GB,Windows,Casual,13.3,Yes,Yes,$849.00 
+HP,Pavilion,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,Casual,15.6,No,No,$780.00 
+HP,HP,Intel,Core i5,11th,16 GB,DDR4,512 GB,Windows,Casual,14,No,Yes,"$1,009.00 "
+ASUS,ROG,Intel,Core i5,10th,8 GB,DDR4,512 GB,Windows,Casual,15.6,No,No,$759.00 
+ASUS,ASUS,Intel,Core i5,11th,8 GB,DDR4,1024 GB,Windows,Gaming,15.6,No,No,$759.00 
+ASUS,TUF,Intel,Core i5,11th,8 GB,DDR4,1024 GB,Windows,Gaming,17.3,No,Yes,$779.00 
+ASUS,ROG,Intel,Core i5,10th,8 GB,DDR4,1024 GB,Windows,Casual,15.6,No,No,$779.00 
+APPLE,MacBook,Intel,Core i5,10th,16 GB,LPDDR4X,1024 GB,Mac,Casual,13,No,No,"$1,799.00 "
+APPLE,MacBook,Intel,Core i5,10th,16 GB,LPDDR4X,1024 GB,Mac,Casual,13,No,No,"$1,799.00 "
+ASUS,ROG,Intel,Core i5,10th,8 GB,DDR4,1024 GB,Windows,Casual,,No,No,$829.00 
+ASUS,TUF,Intel,Core i5,11th,8 GB,DDR4,1024 GB,Windows,Casual,16,No,No,$879.00 
+ASUS,F17,Intel,Core i5,11th,8 GB,DDR4,1024 GB,Windows,Casual,,No,No,$845.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,LPDDR4X,1024 GB,Windows,ThinNlight,13.3,No,No,$741.00 
+ASUS,VivoBook,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,Casual,15.6,No,Yes,$509.00 
+ASUS,VivoBook,Intel,Core i5,10th,8 GB,DDR4,256 GB,Windows,Gaming,15.6,No,No,$559.00 
+ASUS,VivoBook,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,Casual,15.6,No,No,$529.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,Casual,15.6,No,No,$579.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,Casual,15.6,No,No,$624.00 
+ASUS,VivoBook,Intel,Core i5,11th,16 GB,DDR4,256 GB,Windows,Casual,15.6,No,No,$649.00 
+ASUS,VivoBook,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,Casual,15.6,No,Yes,$601.00 
+ASUS,VivoBook,Intel,Core i5,9th,8 GB,DDR4,256 GB,Windows,Gaming,15.6,No,No,$544.00 
+DELL,Inspiron,Intel,Core i5,11th,4 GB,DDR4,256 GB,Windows,ThinNlight,14.9,No,Yes,$557.00 
+ASUS,VivoBook,Intel,Core i5,11th,16 GB,DDR4,256 GB,Windows,Casual,15.6,No,Yes,$649.00 
+DELL,Vostro,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,ThinNlight,14,No,Yes,$549.00 
+HP,Pavilion,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,Gaming,15.6,No,Yes,$719.00 
+DELL,3511,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,Casual,15.6,No,No,$699.00 
+ASUS,VivoBook,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,Casual,,No,No,$499.00 
+DELL,Vostro,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,ThinNlight,,No,Yes,$589.00 
+ASUS,VivoBook,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,Casual,,No,No,$649.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,Casual,,No,No,$664.00 
+DELL,G3,Intel,Core i5,10th,8 GB,DDR4,256 GB,Windows,Casual,,No,No,$779.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,Casual,,No,No,$674.00 
+DELL,Vostro,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,ThinNlight,,No,Yes,$619.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,Casual,,No,Yes,$589.00 
+ASUS,VivoBook,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,Casual,,No,Yes,$689.00 
+DELL,Inspiron,Intel,Core i5,11th,8 GB,DDR4,256 GB,Windows,Casual,15.6,No,No,$716.00 
+DELL,Inspiron,Intel,Core i7,8th,16 GB,DDR4,256 GB,Windows,Casual,,No,Yes,$879.00 
+ASUS,VivoBook,Intel,Core i7,10th,16 GB,DDR4,512 GB,Windows,Casual,15.6,No,No,$579.00 
+ASUS,VivoBook,Intel,Core i7,10th,8 GB,DDR4,512 GB,Windows,Gaming,15.6,No,No,$619.00 
+MSI,GF63,Intel,Core i7,10th,16 GB,DDR4,512 GB,Windows,Casual,15.6,No,No,$799.00 
+ASUS,VivoBook,Intel,Core i7,11th,8 GB,DDR4,512 GB,Windows,Casual,14,No,Yes,$779.00 
+HP,Pavilion,Intel,Core i7,11th,16 GB,DDR4,512 GB,Windows,Casual,15.6,No,Yes,$931.00 
+ASUS,ZenBook,Intel,Core i7,11th,16 GB,LPDDR4X,512 GB,Windows,Casual,13.3,No,Yes,$949.00 
+HP,Envy,Intel,Core i7,11th,16 GB,DDR4,512 GB,Windows,Casual,13.3,Yes,Yes,"$1,029.00 "
+ASUS,ASUS,Intel,Core i7,11th,16 GB,DDR4,512 GB,Windows,Gaming,16,No,No,$949.00 
+HP,Envy,Intel,Core i7,11th,16 GB,DDR4,512 GB,Windows,Casual,16,Yes,Yes,"$1,040.00 "
+HP,Pavilion,Intel,Core i7,11th,16 GB,DDR4,512 GB,Windows,Gaming,16,No,Yes,$901.00 
+MSI,Prestige,Intel,Core i7,10th,16 GB,DDR4,512 GB,Windows,Casual,16,No,No,"$1,099.00 "
+MSI,Sword,Intel,Core i7,11th,16 GB,DDR4,512 GB,Windows,Casual,,No,No,$869.00 
+MSI,Prestige,Intel,Core i7,11th,16 GB,LPDDR4X,512 GB,Windows,Casual,16,No,No,$899.00 
+HP,Spectre,Intel,Core i7,10th,16 GB,LPDDR3,512 GB,Windows,Casual,16,Yes,Yes,"$2,397.00 "
+ASUS,VivoBook,Intel,Core i7,11th,16 GB,DDR4,512 GB,Windows,Casual,,No,Yes,$789.00 
+DELL,XPS,Intel,Core i7,8th,16 GB,DDR3,512 GB,Windows,ThinNlight,16,No,Yes,"$1,218.00 "
+ASUS,ZenBook,Intel,Core i7,8th,16 GB,LPDDR3,512 GB,Windows,ThinNlight,,No,No,$859.00 
+MSI,Katana,Intel,Core i7,11th,16 GB,DDR4,512 GB,Windows,Casual,16,No,No,$949.00 
+HP,Pavilion,Intel,Core i7,11th,16 GB,DDR4,512 GB,Windows,Gaming,16,No,Yes,$920.00 
+HP,Spectre,Intel,Core i7,10th,16 GB,DDR4,512 GB,Windows,Casual,16,Yes,No,"$1,629.00 "
+DELL,XPS,Intel,Core i7,11th,16 GB,LPDDR4X,512 GB,Windows,ThinNlight,16,No,Yes,"$1,353.00 "
+MSI,Modern,Intel,Core i7,11th,16 GB,DDR4,512 GB,Windows,Casual,,No,No,$649.00 
+DELL,Inspiron,Intel,Core i7,10th,16 GB,DDR4,512 GB,Windows,Casual,,Yes,Yes,"$1,091.00 "
+HP,Pavilion,Intel,Core i7,11th,16 GB,DDR4,512 GB,Windows,Casual,16,Yes,Yes,$999.00 
+MSI,Prestige,Intel,Core i7,10th,16 GB,DDR4,512 GB,Windows,Casual,16,No,No,"$1,049.00 "
+ASUS,ZenBook,Intel,Core i7,8th,16 GB,DDR3,512 GB,Windows,ThinNlight,16,No,No,$999.00 
+ASUS,ZenBook,Intel,Core i7,11th,16 GB,LPDDR4X,512 GB,Windows,ThinNlight,16,No,No,$949.00 
+ASUS,ZenBook,Intel,Core i7,8th,8 GB,LPDDR3,512 GB,Windows,ThinNlight,13.3,No,No,$819.00 
+MSI,GF63,Intel,Core i7,9th,8 GB,DDR4,512 GB,Windows,Casual,15.6,No,No,$669.00 
+MSI,GF65,Intel,Core i7,10th,16 GB,DDR4,1024 GB,Windows,Casual,15.6,No,No,$849.00 
+ASUS,Zenbook,Intel,Core i7,11th,16 GB,LPDDR4X,1024 GB,Windows,Casual,14,Yes,Yes,"$1,049.00 "
+ASUS,ZenBook,Intel,Core i7,11th,16 GB,LPDDR4X,1024 GB,Windows,Casual,14,Yes,No,"$1,349.00 "
+ASUS,ASUS,Intel,Core i7,11th,16 GB,DDR4,1024 GB,Windows,Gaming,15.6,No,No,$989.00 
+HP,Envy,Intel,Core i7,10th,16 GB,DDR4,1024 GB,Windows,Casual,15.6,No,Yes,"$1,446.00 "
+ASUS,ZenBook,Intel,Core i7,11th,16 GB,LPDDR4X,1024 GB,Windows,ThinNlight,13.3,No,No,$999.00 
+MSI,Stealth,Intel,Core i7,11th,16 GB,DDR4,1024 GB,Windows,Casual,16,No,No,"$1,199.00 "
+ASUS,Zephyrus,Intel,Core i7,11th,16 GB,DDR4,1024 GB,Windows,Casual,16,No,No,"$1,949.00 "
+ASUS,ZenBook,Intel,Core i7,10th,16 GB,LPDDR3,1024 GB,Windows,Casual,16,No,Yes,"$1,249.00 "
+DELL,Inspiron,Intel,Core i7,11th,16 GB,DDR4,1024 GB,Windows,Casual,16,No,No,"$1,224.00 "
+HP,Spectre,Intel,Core i7,10th,16 GB,DDR4,1024 GB,Windows,Casual,16,Yes,No,"$1,799.00 "
+MSI,Summit,Intel,Core i7,11th,16 GB,DDR4,1024 GB,Windows,Casual,16,Yes,No,"$1,549.00 "
+MSI,Stealth,Intel,Core i7,12th,16 GB,DDR5,1024 GB,Windows,Casual,,No,No,"$2,799.00 "
+HP,OMEN,Intel,Core i7,11th,16 GB,DDR4,1024 GB,Windows,Casual,16,No,No,"$1,219.00 "
+HP,OMEN,Intel,Core i7,11th,16 GB,DDR4,1024 GB,Windows,Casual,16,No,No,"$1,169.00 "
+MSI,Pulse,Intel,Core i7,11th,16 GB,DDR4,1024 GB,Windows,Casual,16,No,No,"$1,299.00 "
+HP,Spectre,Intel,Core i7,11th,16 GB,LPDDR4X,1024 GB,Windows,Casual,16,Yes,No,"$1,499.00 "
+HP,OMEN,Intel,Core i7,11th,16 GB,DDR4,1024 GB,Windows,Casual,16,No,Yes,"$1,719.00 "
+DELL,Inspiron,Intel,Core i7,11th,16 GB,DDR4,1024 GB,Windows,Casual,16,No,Yes,$939.00 
+ASUS,ROG,Intel,Core i7,10th,16 GB,DDR4,1024 GB,Windows,Casual,,No,No,"$2,349.00 "
+HP,Spectre,Intel,Core i7,11th,16 GB,LPDDR4X,1024 GB,Windows,Casual,16,Yes,Yes,"$1,285.00 "
+ASUS,ZenBook,Intel,Core i7,11th,16 GB,LPDDR4X,1024 GB,Windows,Casual,16,Yes,No,"$1,199.00 "
+ASUS,Zephyrus,Intel,Core i7,11th,16 GB,DDR4,1024 GB,Windows,Casual,16,No,No,"$1,572.00 "
+ASUS,ASUS,Intel,Core i7,11th,16 GB,DDR4,1024 GB,Windows,Casual,16,No,No,"$1,315.00 "
+ASUS,ExpertBook,Intel,Core i7,10th,16 GB,LPDDR3,1024 GB,Windows,Casual,16,No,No,"$1,549.00 "
+ASUS,ExpertBook,Intel,Core i7,10th,16 GB,LPDDR3,1024 GB,Windows,Casual,16,No,No,"$1,659.00 "
+ASUS,ExpertBook,Intel,Core i7,10th,16 GB,LPDDR3,1024 GB,Windows,Casual,16,No,No,"$1,679.00 "
+HP,Spectre,Intel,Core i7,11th,16 GB,LPDDR4X,1024 GB,Windows,Casual,16,Yes,No,"$1,650.00 "
+HP,HP,Intel,Core i7,11th,16 GB,DDR4,1024 GB,Windows,Casual,13.3,No,Yes,$949.00 
+HP,Omen,Intel,Core i7,11th,16 GB,DDR4,1024 GB,Windows,Casual,16.1,No,Yes,"$1,369.00 "
+ASUS,ExpertBook,Intel,Core i7,10th,16 GB,LPDDR3,2048 GB,Windows,Casual,16,No,No,"$2,339.00 "
+HP,15,Intel,Core i7,8th,16 GB,DDR4,128 GB,Windows,Casual,,No,No,"$1,169.00 "
+MSI,GF63,Intel,Core i7,10th,8 GB,DDR4,256 GB,Windows,Casual,15.6,No,No,$639.00 
+ASUS,VivoBook,Intel,Core i7,10th,16 GB,DDR4,256 GB,Windows,Gaming,15.6,No,No,$669.00 
+MSI,WF65,Intel,Core i7,10th,16 GB,DDR4,256 GB,Windows,Casual,16,No,No,"$1,599.00 "
+ASUS,Pro,Intel,Core i7,8th,16 GB,DDR4,256 GB,Windows,ThinNlight,,No,No,$989.00 
+MSI,Creator,Intel,Core i9,11th,16 GB,DDR4,1024 GB,Windows,Casual,16,No,No,"$1,929.00 "
+ASUS,ROG,Intel,Core i9,12th,16 GB,DDR5,1024 GB,Windows,Casual,,No,No,"$2,999.00 "
+ASUS,ASUS,Intel,Core i9,11th,16 GB,DDR4,1024 GB,Windows,Gaming,15.6,No,No,"$1,399.00 "
+ASUS,Zephyrus,Intel,Core i9,11th,16 GB,DDR4,3072 GB,Windows,Casual,,No,No,"$4,419.00 "
+APPLE,MacBook,M1,M1,10th,8 GB,DDR4,256 GB,Mac,Casual,13.3,No,No,$859.00 
+APPLE,MacBook,M1,M1,10th,8 GB,DDR4,256 GB,Mac,Casual,13.3,No,No,"$1,129.00 "
+APPLE,MacBook,M1,M1,10th,16 GB,DDR4,256 GB,Mac,Casual,13.3,No,No,"$1,049.00 "
+APPLE,MacBook,M1,M1,10th,8 GB,DDR4,256 GB,Mac,Casual,13.3,No,No,"$1,129.00 "
+APPLE,MacBook,M1,M1,10th,16 GB,DDR4,256 GB,Mac,Casual,13.3,No,No,"$1,329.00 "
+APPLE,MacBook,M1,M1,10th,16 GB,DDR4,256 GB,Mac,Casual,13.3,No,No,"$1,049.00 "
+APPLE,MacBook,M1,M1,10th,8 GB,DDR4,256 GB,Mac,Casual,13.3,No,No,$859.00 
+APPLE,MacBook,M1,M1,10th,16 GB,DDR4,512 GB,Mac,Casual,13.3,No,No,"$1,499.00 "
+APPLE,MacBook,M1,M1,10th,8 GB,DDR4,512 GB,Mac,Casual,13.3,No,No,"$1,259.00 "
+APPLE,MacBook,M1,M1,10th,8 GB,DDR4,512 GB,Mac,Casual,13.3,No,No,"$1,039.00 "
+APPLE,MacBook,M1,M1,10th,8 GB,DDR4,512 GB,Mac,Casual,13.3,No,No,"$1,019.00 "
+APPLE,MacBook,M1,M1,10th,8 GB,DDR4,512 GB,Mac,Casual,13.3,No,No,"$1,049.00 "
+APPLE,MacBook,M1,M1,10th,8 GB,DDR4,512 GB,Mac,Casual,13.3,No,No,"$1,319.00 "
+APPLE,MacBook,M1,M1,10th,16 GB,DDR4,512 GB,Mac,Casual,13.3,No,No,"$1,289.00 "
+APPLE,MacBook,M1,M1,10th,16 GB,DDR4,512 GB,Mac,Casual,14.2,No,No,"$1,849.00 "
+APPLE,MacBook,M1,M1,10th,16 GB,DDR4,512 GB,Mac,Casual,16.2,No,No,"$2,259.00 "
+APPLE,MacBook,M1,M1,10th,4 GB,DDR4,512 GB,Mac,Casual,16,No,No,"$1,249.00 "
+APPLE,MacBook,M1,M1,10th,8 GB,DDR4,512 GB,Mac,Casual,13.3,No,No,"$1,049.00 "
+APPLE,MacBook,M1,M1,10th,8 GB,DDR4,1024 GB,Mac,Casual,13.3,No,No,"$1,499.00 "
+APPLE,MacBook,M1,M1,10th,16 GB,DDR4,1024 GB,Mac,Casual,13.3,No,No,"$1,699.00 "
+APPLE,MacBook,M1,M1,10th,16 GB,DDR4,1024 GB,Mac,Casual,14.2,No,No,"$2,259.00 "
+APPLE,MacBook,M1,M1,10th,16 GB,DDR4,1024 GB,Mac,Casual,16.2,No,No,"$2,439.00 "
+APPLE,MacBook,M1,M1,10th,32 GB,DDR4,1024 GB,Mac,Casual,16.2,No,No,"$3,099.00 "
+APPLE,MacBook,M1,M1,10th,16 GB,DDR4,1024 GB,Mac,Casual,14.2,No,No,"$2,259.00 "
